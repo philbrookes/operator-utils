@@ -26,15 +26,15 @@
   version = "v9"
 
 [[projects]]
-  digest = "1:50516de51ff6d6ca22966a54a61f174955db8ccf0f900f72c02c3bcbeaa68188"
+  digest = "1:eaac789184d6af389e32d694d8c45c43fe7345b0dc1b4af4120b32ca1820eacc"
   name = "github.com/coreos/prometheus-operator"
   packages = [
     "pkg/apis/monitoring",
     "pkg/apis/monitoring/v1",
   ]
   pruneopts = "UT"
-  revision = ""
-  version = "v0.29.0"
+  revision = "8d44e0990230144177f97cf62ae4f43b1c4e3168"
+  version = "v0.34.0"
 
 [[projects]]
   digest = "1:ffe9824d294da03b391f44e1ae8281281b4afc1bdaa9588c9097785e3af10cec"
@@ -683,6 +683,7 @@
     "k8s.io/api/rbac/v1",
     "k8s.io/apimachinery/pkg/apis/meta/v1",
     "k8s.io/apimachinery/pkg/runtime",
+    "k8s.io/apimachinery/pkg/runtime/schema",
     "k8s.io/apimachinery/pkg/types",
     "k8s.io/apimachinery/pkg/version",
     "k8s.io/client-go/discovery",
